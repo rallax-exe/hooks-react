@@ -1,6 +1,12 @@
 import { useCounter, useFetch } from '../hooks';
 import { LoadingQuote, Quote } from '../03-examples';
 
+/*
+    useLayoutEffect 
+    se parece a useEffect pero 
+    este se ejecuta cuando todo
+    el DOM ha terminado de renderizarse
+*/
 
 export const Layout = () => {
 

@@ -4,6 +4,11 @@ import { useForm } from '../hooks/useForm';
 
 export const FormWithCustomHook = () => {
 
+    /*
+        Recibe datos del formulario que esta en el useForm
+        las props que se le envia al useForm son los campos 
+        del form hecho en html
+    */
     const { formState, onInputChange, onResetForm, username, email, password } = useForm({
         username: '',
         email: '',
