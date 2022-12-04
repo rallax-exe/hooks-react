@@ -1,4 +1,4 @@
-# JournalApp
+# React Hooks
 
 Repositorio de Hooks de React, contiene comentarios sobre su uso e implementacion.
 
